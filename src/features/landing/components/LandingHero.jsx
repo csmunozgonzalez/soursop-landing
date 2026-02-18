@@ -12,15 +12,12 @@ export default function LandingHero() {
             <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2 pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
-                <div className="mb-16">
-                    <SoursopLogo mode="light" />
-                </div>
                 <div className="max-w-3xl">
-                    <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full text-emerald-400 text-xs font-bold uppercase tracking-widest mb-6 animate-pulse">
+                    <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full text-emerald-400 text-xs font-bold uppercase tracking-widest mb-12 animate-pulse">
                         <Zap size={14} /> El Futuro de la Gestión Empresarial
                     </div>
                     <h1 className="text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] mb-8 tracking-tight">
-                        SOURSOP OS: <br />
+                        <SoursopLogo mode="light" className="scale-[1.8] origin-left mb-10 translate-y-1" />
                         <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">El Sistema Operativo para Empresas Inteligentes</span>
                     </h1>
                     <p className="text-xl text-slate-400 mb-10 leading-relaxed">
