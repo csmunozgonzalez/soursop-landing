@@ -6,23 +6,28 @@ import { useAnalytics } from '../../../hooks/useAnalytics';
 export default function LandingHero() {
     const { trackEvent } = useAnalytics();
     return (
-        <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <section className="relative pt-12 pb-20 lg:pt-16 lg:pb-32 overflow-hidden">
             {/* Background Glows */}
             <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-emerald-500/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
             <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2 pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
+                <div className="mb-16">
+                    <SoursopLogo mode="light" />
+                </div>
                 <div className="max-w-3xl">
                     <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full text-emerald-400 text-xs font-bold uppercase tracking-widest mb-6 animate-pulse">
                         <Zap size={14} /> El Futuro de la Gestión Empresarial
                     </div>
                     <h1 className="text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] mb-8 tracking-tight">
-                        El Sistema Operativo para <br />
-                        <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">Líderes Visionarios</span>
+                        SOURSOP OS: <br />
+                        <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent">El Sistema Operativo para Empresas Inteligentes</span>
                     </h1>
                     <p className="text-xl text-slate-400 mb-10 leading-relaxed">
-                        Organiza tu ADN estratégico con tu <span className="text-white font-bold">Virtual CEO</span>, controla tus finanzas en tiempo real
-                        y escala tu operación con un cerebro digital diseñado para la independencia y el alto rendimiento.
+                        Deja de operar a ciegas. Instale un <span className="text-white font-bold">Cerebro Digital</span> que unifica su contabilidad, inventario y estrategia en una sola plataforma.
+                    </p>
+                    <p className="text-lg text-slate-500 mb-10 -mt-6">
+                        No somos otro software contable. Somos su analista de negocios 24/7.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <a
@@ -30,7 +35,7 @@ export default function LandingHero() {
                             onClick={() => trackEvent('register_click', { location: 'hero' })}
                             className="group bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-xl shadow-emerald-500/20"
                         >
-                            Comenzar ahora <ChevronRight className="group-hover:translate-x-1 transition-transform" />
+                            Pruebalo Gratis <ChevronRight className="group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
                             href="#features"

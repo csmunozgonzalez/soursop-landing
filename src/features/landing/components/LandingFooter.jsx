@@ -3,6 +3,16 @@ import SoursopLogo from '@/components/ui/SoursopLogo';
 export default function LandingFooter() {
     return (
         <footer className="py-20 border-t border-white/5 bg-slate-900">
+            <div className="max-w-7xl mx-auto px-6 mb-20 text-center">
+                <h3 className="text-3xl font-bold text-white mb-6">¿Listo para dejar de apagar incendios?</h3>
+                <p className="text-slate-400 mb-8 max-w-xl mx-auto">Su competencia ya está automatizando. Tome la delantera con Soursop OS.</p>
+                <a
+                    href="https://app.soursop-ia.com/register"
+                    className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all shadow-xl shadow-emerald-500/20"
+                >
+                    Empezar Ahora
+                </a>
+            </div>
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div className="md:col-span-2">
                     <SoursopLogo mode="light" className="mb-6" />

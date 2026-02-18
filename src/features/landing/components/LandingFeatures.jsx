@@ -6,35 +6,44 @@ export default function LandingFeatures() {
             <div className="max-w-7xl mx-auto px-6">
                 <div className="flex flex-col lg:flex-row items-center gap-20">
                     <div className="lg:w-1/2">
-                        <h2 className="text-sm font-bold text-blue-400 uppercase tracking-[0.2em] mb-4">Control Operativo Avanzado</h2>
-                        <h3 className="text-4xl font-bold text-white mb-8">Gestión de Nueva Generación</h3>
+                        <h2 className="text-sm font-bold text-blue-400 uppercase tracking-[0.2em] mb-4">Descubre el Funcionamiento</h2>
+                        <h3 className="text-4xl font-bold text-white mb-8">Su Itinerario al Éxito</h3>
 
                         <div className="space-y-8">
                             <div className="flex gap-6">
                                 <div className="flex-shrink-0 w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-emerald-400 border border-white/10">
-                                    <TrendingUp size={22} />
+                                    <Zap size={22} />
                                 </div>
                                 <div>
-                                    <h5 className="text-lg font-bold text-white mb-2">Módulo MOTOR: Producción Rentable</h5>
-                                    <p className="text-slate-400 text-sm">Gestiona tus recetas y procesos por lotes. Calcula automáticamente el margen real de cada producto incluyendo costos directos e indirectos.</p>
+                                    <h5 className="text-lg font-bold text-white mb-2">1. Conecta</h5>
+                                    <p className="text-slate-400 text-sm">Integra sus cuentas bancarias y facturación electrónica en 1 clic. Sin procesos manuales, sin errores.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
                                 <div className="flex-shrink-0 w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-blue-400 border border-white/10">
-                                    <ShoppingBag size={22} />
+                                    <TrendingUp size={22} />
                                 </div>
                                 <div>
-                                    <h5 className="text-lg font-bold text-white mb-2">Módulo NEXUS: Flujo de Caja Maestro</h5>
-                                    <p className="text-slate-400 text-sm">Sincronización instantánea entre compras, ventas y bancos. Toma decisiones basadas en liquidez real, no en estimaciones.</p>
+                                    <h5 className="text-lg font-bold text-white mb-2">2. Analiza</h5>
+                                    <p className="text-slate-400 text-sm">Nuestra IA (Cortex Admin) procesa sus datos históricos y actuales para encontrar fugas de dinero y oportunidades.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
                                 <div className="flex-shrink-0 w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-purple-400 border border-white/10">
-                                    <Zap size={22} />
+                                    <ShoppingBag size={22} />
                                 </div>
                                 <div>
-                                    <h5 className="text-lg font-bold text-white mb-2">Módulo FLUJO: Empatía de la Automatización</h5>
-                                    <p className="text-slate-400 text-sm">Define reglas que trabajen por ti. Si ocurre un evento, el sistema reacciona automáticamente, eliminando errores humanos y liberando tu tiempo.</p>
+                                    <h5 className="text-lg font-bold text-white mb-2">3. Opera</h5>
+                                    <p className="text-slate-400 text-sm">Recibe alertas proactivas sobre compras, cobros y estrategia directamente en su celular. Tome el control.</p>
+                                </div>
+                            </div>
+                            <div className="flex gap-6">
+                                <div className="flex-shrink-0 w-12 h-12 bg-white/5 rounded-xl flex items-center justify-center text-teal-400 border border-white/10">
+                                    <LayoutDashboard size={22} />
+                                </div>
+                                <div>
+                                    <h5 className="text-lg font-bold text-white mb-2">4. Escala</h5>
+                                    <p className="text-slate-400 text-sm">Tome decisiones basadas en datos reales, no en intuición. Escale su impacto y su rentabilidad con confianza.</p>
                                 </div>
                             </div>
                         </div>
