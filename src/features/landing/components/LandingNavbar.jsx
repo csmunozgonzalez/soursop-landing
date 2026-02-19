@@ -19,8 +19,8 @@ export default function LandingNavbar() {
                         <span className="hidden md:inline">Iniciar Sesión</span>
                         <span className="md:hidden">Entrar</span>
                     </a>
-                    <a href="https://app.soursop-ia.com/register" className="flex items-center bg-soursop-500 hover:bg-soursop-600 text-white px-4 py-2 md:px-6 md:py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all shadow-lg shadow-soursop-500/20 whitespace-nowrap">
-                        Prueba Gratis
+                    <a href="https://calendly.com/soursop-ia/demo" target="_blank" rel="noopener noreferrer" className="flex items-center bg-soursop-500 hover:bg-soursop-600 text-white px-4 py-2 md:px-6 md:py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all shadow-lg shadow-soursop-500/20 whitespace-nowrap">
+                        Agendar Demo
                     </a>
                 </div>
             </div>

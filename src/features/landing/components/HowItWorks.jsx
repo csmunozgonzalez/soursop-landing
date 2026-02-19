@@ -4,23 +4,23 @@ import { Link2, Sparkles, Rocket, ChevronRight } from 'lucide-react';
 export default function HowItWorks() {
     const steps = [
         {
-            title: "Conexión Inteligente",
-            subtitle: "El fin de la fragmentación",
-            description: "En minutos, vinculamos tus bancos, software contable (Siigo) e inventarios. Soursop OS se convierte en la única fuente de verdad para tu empresa.",
+            title: "1. Conecta tus Datos",
+            subtitle: "Adiós al caos",
+            description: "Vincula tus bancos, facturación e inventario en un clic. Sin configuraciones complejas.",
             icon: <Link2 size={24} />,
             color: "emerald"
         },
         {
-            title: "Activación de Cortex IA",
-            subtitle: "Tu cerebro digital despierta",
-            description: "No solo guardamos datos, los entendemos. Cortex IA analiza cada transacción para detectar fugas de dinero, predecir demanda y sugerir optimizaciones.",
+            title: "2. Pregunta a Soursop",
+            subtitle: "Tu analista personal",
+            description: "Usa el chat para consultar lo que quieras: '¿Cuál es mi producto más rentable?' o '¿Tengo suficiente efectivo?'",
             icon: <Sparkles size={24} />,
             color: "blue"
         },
         {
-            title: "Escalamiento Confidente",
-            subtitle: "Decisiones con claridad total",
-            description: "Recibe alertas proactivas y dashboards en tiempo real. Deja de apagar incendios y empieza a ejecutar estrategias que multiplican tu rentabilidad.",
+            title: "3. Decide y Crece",
+            subtitle: "Acción inmediata",
+            description: "Recibe la respuesta exacta al instante. Toma decisiones informadas y haz crecer tu negocio hoy mismo.",
             icon: <Rocket size={24} />,
             color: "emerald"
         }
@@ -35,10 +35,10 @@ export default function HowItWorks() {
                 <div className="text-center mb-20">
                     <h2 className="text-sm font-bold text-emerald-400 uppercase tracking-[0.2em] mb-4">El Camino a la Inteligencia</h2>
                     <h3 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
-                        ¿Cómo funciona <span className="text-emerald-500 italic">Soursop OS</span>?
+                        Obtén respuestas en <span className="text-emerald-500 italic">3 Pasos</span>
                     </h3>
                     <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-                        De la fragmentación operativa al control absoluto en tres pasos estratégicos.
+                        Sin curvas de aprendizaje. Tan fácil como chatear.
                     </p>
                 </div>
 
@@ -79,9 +79,9 @@ export default function HowItWorks() {
                 {/* Vision Statement */}
                 <div className="mt-24 p-8 md:p-12 rounded-[2.5rem] bg-gradient-to-br from-slate-900 to-slate-800 border border-white/5 relative overflow-hidden text-center max-w-4xl mx-auto">
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-emerald-500/50 to-transparent"></div>
-                    <h6 className="text-2xl md:text-3xl font-bold text-white mb-6">Nuestra Visión</h6>
+                    <h6 className="text-2xl md:text-3xl font-bold text-white mb-6">Nuestra Misión</h6>
                     <p className="text-xl text-slate-300 italic mb-8">
-                        "Convertir tu empresa en un organismo inteligente que aprende de sus datos para prosperar en la era digital."
+                        "Democratizar la inteligencia de negocios para que cualquier emprendedor pueda competir con los grandes."
                     </p>
                     <div className="flex flex-col md:flex-row justify-center items-center gap-6">
                         <div className="flex items-center gap-2 text-emerald-400 font-bold">

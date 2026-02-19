@@ -5,10 +5,10 @@ export default function LandingDNA() {
         <section id="strategic" className="py-24 bg-slate-900/50 relative border-y border-white/5">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center max-w-2xl mx-auto mb-20">
-                    <h2 className="text-sm font-bold text-emerald-400 uppercase tracking-[0.2em] mb-4">El Desafío Gerencial</h2>
-                    <h3 className="text-4xl font-bold text-white mb-6">Toma el Control de tu Operación</h3>
+                    <h2 className="text-sm font-bold text-emerald-400 uppercase tracking-[0.2em] mb-4">La Realidad del Emprendedor</h2>
+                    <h3 className="text-4xl font-bold text-white mb-6">Toma el Control de tu Negocio</h3>
                     <p className="text-slate-400">
-                        La mayoría de las PyMEs operan con datos fragmentados y desactualizados. Es hora de dejar de conducir mirando por el retrovisor.
+                        La mayoría de los negocios operan con datos sueltos y desactualizados. Es hora de dejar de conducir mirando por el retrovisor.
                     </p>
                 </div>
 
@@ -20,7 +20,7 @@ export default function LandingDNA() {
                         </div>
                         <h4 className="text-xl font-bold text-white mb-4">¿Caos Administrativo?</h4>
                         <p className="text-slate-400 text-base leading-relaxed">
-                            ¿Su contabilidad vive en Siigo, su inventario en Excel y sus tareas en WhatsApp? La fragmentación es el enemigo silencioso de su crecimiento.
+                            ¿Tu contabilidad está en un lado, tu inventario en Excel y tus pedidos en WhatsApp? El desorden es el enemigo silencioso de tu crecimiento.
                         </p>
                     </div>
 
@@ -31,7 +31,7 @@ export default function LandingDNA() {
                         </div>
                         <h4 className="text-xl font-bold text-white mb-4">Ceguera Gerencial</h4>
                         <p className="text-slate-400 text-base leading-relaxed">
-                            Toma decisiones con datos de hace 30 días. Eso es conducir mirando por el retrovisor. Soursop le da visibilidad en tiempo real.
+                            Tomas decisiones con datos de la semana pasada. Eso es arriesgado. Soursop te da visibilidad hoy para que ganes mañana.
                         </p>
                     </div>
                 </div>

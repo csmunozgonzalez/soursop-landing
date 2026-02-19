@@ -7,7 +7,7 @@ export default function LandingFeatures() {
                 <div className="flex flex-col lg:flex-row items-center gap-20">
                     <div className="lg:w-1/2">
                         <h2 className="text-sm font-bold text-blue-400 uppercase tracking-[0.2em] mb-4">Descubre el Funcionamiento</h2>
-                        <h3 className="text-4xl font-bold text-white mb-8">Su Itinerario al Éxito</h3>
+                        <h3 className="text-4xl font-bold text-white mb-8">Todo lo que necesitas para crecer</h3>
 
                         <div className="space-y-8">
                             <div className="flex gap-6">
@@ -15,8 +15,8 @@ export default function LandingFeatures() {
                                     <Zap size={22} />
                                 </div>
                                 <div>
-                                    <h5 className="text-lg font-bold text-white mb-2">1. Conecta</h5>
-                                    <p className="text-slate-400 text-sm">Integra sus cuentas bancarias y facturación electrónica en 1 clic. Sin procesos manuales, sin errores.</p>
+                                    <h5 className="text-lg font-bold text-white mb-2">1. Centralización Automática</h5>
+                                    <p className="text-slate-400 text-sm">Olvídate de entrar a 5 portales diferentes. Soursop trae tus bancos, facturas e inventario a un solo lugar.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -24,8 +24,8 @@ export default function LandingFeatures() {
                                     <TrendingUp size={22} />
                                 </div>
                                 <div>
-                                    <h5 className="text-lg font-bold text-white mb-2">2. Analiza</h5>
-                                    <p className="text-slate-400 text-sm">Nuestra IA (Cortex Admin) procesa sus datos históricos y actuales para encontrar fugas de dinero y oportunidades.</p>
+                                    <h5 className="text-lg font-bold text-white mb-2">2. IA Conversacional</h5>
+                                    <p className="text-slate-400 text-sm">No necesitas aprender dashboards complejos. Solo pregunta: "¿Cómo bajar mis gastos?" y obtén un plan de acción.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -33,8 +33,8 @@ export default function LandingFeatures() {
                                     <ShoppingBag size={22} />
                                 </div>
                                 <div>
-                                    <h5 className="text-lg font-bold text-white mb-2">3. Opera</h5>
-                                    <p className="text-slate-400 text-sm">Recibe alertas proactivas sobre compras, cobros y estrategia directamente en su celular. Tome el control.</p>
+                                    <h5 className="text-lg font-bold text-white mb-2">3. Alertas Inteligentes</h5>
+                                    <p className="text-slate-400 text-sm">Soursop te avisa si te vas a quedar sin stock o si un cliente se atrasó en el pago. Prevención total.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6">
@@ -42,8 +42,8 @@ export default function LandingFeatures() {
                                     <LayoutDashboard size={22} />
                                 </div>
                                 <div>
-                                    <h5 className="text-lg font-bold text-white mb-2">4. Escala</h5>
-                                    <p className="text-slate-400 text-sm">Tome decisiones basadas en datos reales, no en intuición. Escale su impacto y su rentabilidad con confianza.</p>
+                                    <h5 className="text-lg font-bold text-white mb-2">4. Crecimiento Acelerado</h5>
+                                    <p className="text-slate-400 text-sm">Deja de adivinar. Toma decisiones basadas en datos reales y ve los resultados en tu cuenta bancaria.</p>
                                 </div>
                             </div>
                         </div>

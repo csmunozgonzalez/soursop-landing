@@ -18,10 +18,10 @@ export default function WhatIsSoursop() {
                         ¿Qué es Soursop OS?
                     </h2>
                     <h3 className="text-3xl md:text-5xl font-bold text-white mb-8 leading-tight tracking-tight">
-                        El <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent italic">Cerebro Digital</span> para tu Empresa
+                        Tu Negocio en <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent italic">Piloto Automático</span>
                     </h3>
                     <p className="text-xl md:text-2xl font-medium text-slate-400 leading-relaxed">
-                        Es el sistema definitivo que unifica contabilidad, inventario y estrategia en tiempo real, permitiéndote tomar decisiones inteligentes y escalar tu negocio sin el caos de la fragmentación operativa.
+                        Es el sistema operativo que cruza tus datos por ti. Pregúntale a nuestra IA lo que necesitas saber y toma decisiones de crecimiento sin perder tiempo en hojas de cálculo.
                     </p>
                 </div>
             </div>

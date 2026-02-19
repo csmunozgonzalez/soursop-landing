@@ -14,35 +14,37 @@ export default function LandingHero() {
             <div className="max-w-7xl mx-auto px-6 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
                 <div className="max-w-3xl">
                     <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full text-emerald-400 text-xs font-bold uppercase tracking-widest mb-10 animate-pulse">
-                        <Zap size={14} /> El Futuro de la Gestión Empresarial
+                        <Zap size={14} /> IA Conversacional para Tu Negocio
                     </div>
                     <div className="mb-6">
                         <SoursopLogo mode="light" className="scale-[1.8] origin-left translate-y-2" />
                     </div>
                     <h1 className="text-5xl lg:text-7xl font-extrabold text-white leading-[1.05] mb-8 tracking-tight max-w-2xl">
-                        <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent italic">El Sistema Operativo</span> <br />
-                        <span>para Empresas Inteligentes</span>
+                        <span className="bg-gradient-to-r from-emerald-400 to-blue-400 bg-clip-text text-transparent italic">Crece Rápido</span> <br />
+                        <span>Sin Ser Experto en Datos</span>
                     </h1>
                     <p className="text-xl text-slate-400 mb-10 leading-relaxed max-w-xl">
-                        Deja de operar a ciegas. Instale un <span className="text-white font-bold">Cerebro Digital</span> que unifica su contabilidad, inventario y estrategia en una sola plataforma.
+                        Tienes la información, pero no el tiempo. <span className="text-white font-bold">Soursop</span> cruza tus datos y responde tus dudas estratégicas al instante.
                     </p>
                     <p className="text-lg text-slate-500 mb-10 -mt-6">
-                        No somos otro software contable. Somos su analista de negocios 24/7.
+                        Ideal para emprendedores y microempresarios. Tu asistente IA 24/7.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <a
-                            href="https://app.soursop-ia.com/register"
-                            onClick={() => trackEvent('register_click', { location: 'hero' })}
+                            href="https://calendly.com/soursop-ia/demo"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={() => trackEvent('agenda_demo_click', { location: 'hero' })}
                             className="group bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-xl shadow-emerald-500/20"
                         >
-                            Pruebalo Gratis <ChevronRight className="group-hover:translate-x-1 transition-transform" />
+                            Agendar Demo Gratuita <ChevronRight className="group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
                             href="#features"
                             onClick={() => trackEvent('view_features_click', { location: 'hero' })}
                             className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all flex items-center justify-center gap-2 underline-offset-4 decoration-emerald-500/50"
                         >
-                            Ver características
+                            Ver cómo funciona
                         </a>
                     </div>
 
@@ -84,8 +86,8 @@ export default function LandingHero() {
                                 </div>
                             </div>
                         </div>
-                        <h4 className="text-white font-bold">Cortex IA: Operación Activa</h4>
-                        <p className="text-slate-400 text-sm mt-1">"He detectado una fuga de $2.5M en costos de producción por desperdicios."</p>
+                        <h4 className="text-white font-bold">Asistente Soursop</h4>
+                        <p className="text-slate-400 text-sm mt-1">"Hola, tus ventas subieron un 15% hoy. ¿Quieres ver qué productos se vendieron más?"</p>
                     </div>
 
                     {/* Insight Card 3: Inventory */}

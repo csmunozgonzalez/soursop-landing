@@ -4,22 +4,22 @@ import { LayoutDashboard, BrainCircuit, BarChart3 } from 'lucide-react';
 export default function ServiceShowcase() {
     const showcases = [
         {
-            title: "Control Maestro: Tu Centro de Mando Ejecutivo",
-            description: "No más reportes obsoletos. Visualiza tu flujo de caja, rentabilidad y KPIs críticos en un tablero diseñado para la alta gerencia.",
+            title: "Control Total: Tu Negocio en una Pantalla",
+            description: "Olvídate de revisar 10 excels diferentes. Mira cuánto tienes en el banco, cuánto te deben y cuánto ganas en tiempo real.",
             image: "/mockups/dashboard.png",
             icon: <LayoutDashboard className="text-emerald-400" size={24} />,
             color: "emerald"
         },
         {
-            title: "Cortex IA: El Corazón de la Inteligencia de Negocios",
-            description: "Un analista que nunca duerme. Cortex detecta anomalías, predice fugas de capital y sugiere estrategias de optimización personalizadas.",
+            title: "Asistente IA: Respuestas Instantáneas",
+            description: "No necesitas ser analista. Pregúntale a Soursop: '¿Qué productos debo reponer?' o '¿Cómo van mis gastos?' y obtén respuestas claras.",
             image: "/mockups/cortex.png",
             icon: <BrainCircuit className="text-blue-400" size={24} />,
             color: "blue"
         },
         {
-            title: "Logística Predictiva: Adelántate a la Demanda",
-            description: "Convierte tu inventario en una ventaja competitiva. Predicciones inteligentes que evitan quiebres de stock y optimizan tu capital de trabajo.",
+            title: "Inventario Inteligente: Stock Siempre Perfecto",
+            description: "Evita quedarte sin productos o tener dinero estancado en bodega. Soursop te dice exactamente qué comprar y cuándo.",
             image: "/mockups/inventory.png",
             icon: <BarChart3 className="text-purple-400" size={24} />,
             color: "purple"
@@ -35,7 +35,7 @@ export default function ServiceShowcase() {
                         La Experiencia <span className="text-emerald-500 italic">Soursop</span>
                     </h3>
                     <p className="text-xl text-slate-400 max-w-2xl mx-auto">
-                        Diseñado para CEOs que exigen claridad, velocidad y resultados exponenciales.
+                        Diseñado para emprendedores que quieren claridad, velocidad y resultados rápidos.
                     </p>
                 </div>
 
@@ -76,6 +76,6 @@ export default function ServiceShowcase() {
                     ))}
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
